@@ -1,0 +1,22 @@
+.intro {
+  max-width:690px;
+  min-height:569px;
+  padding:114px 0 92px 100px;
+  background-color: darkgray;
+  font-size:0;
+}
+@media screen and (max-width:1024px){
+  .intro {
+    padding-left:48px;
+  }
+}
+@media screen and (max-width:768px) {
+  .intro {
+    padding:110px 24px 88px 24px;
+  }
+}
+@media screen and (max-width:500px) {
+  .intro {
+    padding:64px 16px;
+  }
+}

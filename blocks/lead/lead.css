@@ -1,0 +1,22 @@
+.lead {
+  box-sizing:border-box;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  background-color: cornflowerblue;
+  width:100%;
+  height:auto;
+  min-height:406px;
+  padding:58px 100px 0;
+}
+@media screen and (max-width:1024px){
+  .lead {
+    padding:50px 48px 0;
+  }
+}
+@media screen and (max-width:768px){
+  .lead {
+    padding:50px 0 0;
+  }
+}
