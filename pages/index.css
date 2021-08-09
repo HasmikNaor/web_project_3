@@ -27,9 +27,10 @@
 @import url(../blocks/header/__langs/header__langs.css);
 @import url(../blocks/header/__lang-link/header__lang-link.css);
 @import url(../blocks/intro/__list-details/intro__list-details.css);
+@import url(../blocks/intro/__title/intro__title.css);
 @import url(../blocks/intro/__subtitle/intro__subtitle.css);
 @import url(../blocks/intro/__description/intro__description.css);
-@import url(../blocks/intro/__title/intro__title.css);
+@import url(../blocks/intro/);
 @import url(../blocks/intro/__list-category/intro__list-category.css);
 @import url(../blocks/lead/__caption/lead__caption.css);
 @import url(../blocks/lead/__image/lead__image.css);

@@ -1,0 +1,22 @@
+.intro {
+  box-sizing:border-box;
+  max-width:790px;
+  width:100%;
+  padding:92px 0 92px 100px;
+}
+@media screen and (max-width:1024px) {
+  .intro {
+    padding-left:48px;
+    padding-right:52px;
+  }
+}
+@media screen and (max-width:768px) {
+  .intro {
+    padding:88px 24px;
+  }
+}
+@media screen and (max-width:500px) {
+  .intro {
+    padding:64px 16px;
+  }
+}
