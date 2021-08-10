@@ -14,15 +14,15 @@
     <header class="header">
       <img src="./images/logo.svg" alt="logo" class="logo">
       <ul class="header__langs">
-        <li><a href="#" target="_blank" class="active header__lang-link header__lang-link_type_en">En</a></li>
-        <li><a href="#" target="_blank" class="header__lang-link header__lang-link_type_es">Es</a></li>
+        <li><a href="#" class="header__lang-link header__lang-link_active">En</a></li>
+        <li><a href="#" class="header__lang-link header__lang-link">Es</a></li>
       </ul>
     </header>
-    <div class="main">
+    <main class="main">
       <section class="lead">
         <h1 class="lead__title">From Portland to Portland</h1>
         <p class="lead__subtitle">An epic bicycle journey from Portland, ME. to Portland, OR</p>
-        <figure class="figure">
+        <figure class="lead__figure">
           <img src="./images/lead-mountains.jpg" alt="lead-mountains" class="lead__image">
           <figcaption class="lead__caption">Your journey starts here</figcaption>
         </figure>
@@ -70,16 +70,18 @@
           <img src="./images/place-maine.jpg" alt="place-marine" class="places__image
           ">
           <div class="places__description">
-            <p>Still, as sparsely populated as it was in the 1600s, this is an extraordinary and highly underrated
+            <p class="places__paragraph">Still, as sparsely populated as it was in the 1600s, this is an extraordinary
+              and highly underrated
               state
               full of rich history and majestic natural beauty. Maine is the main state you want to be sure not to
               miss.
               As your journey is going to be a long one, you had best be prepared for an arduous trek.</p>
-            <p>Thankfully, not only is Maine home to the very first European settlers on US territory in the era of
+            <p class="places__paragraph">Thankfully, not only is Maine home to the very first European settlers on US
+              territory in the era of
               Vikings, but is also home to L.L. Bean, which is a great company to grab a super sturdy backpack from
               for
               your 3-month expedition. </p>
-            <p>Average cost: $80-100.</p>
+            <p class="places__paragraph places__last-paragraph">Average cost: $80-100.</p>
           </div>
         </div>
         <div class="places__place">
@@ -92,17 +94,19 @@
           <img src="./images/place-new-hampshire.jpg" alt="place-new-hampshire" class="places__image
           ">
           <div class="places__description">
-            <p>There's no better place to lose yourself in nature than in springtime New Hampshire. As serene and
+            <p class="places__paragraph">There's no better place to lose yourself in nature than in springtime New
+              Hampshire. As serene and
               beautiful as it was in the 1700s, this state is still much less traveled than its neighbors to the
               South.
               So enjoy it while it lasts.</p>
-            <p>You won't be on your bike the whole time, so doesn't it make sense to pick up some extra footwear?
+            <p class="places__paragraph">You won't be on your bike the whole time, so doesn't it make sense to pick up
+              some extra footwear?
               Fortunately for you, the best outdoor shoe company in the history of the world proudly hails from this
               state. Cycle by the Timberland headquarters in Stratham, and pick up a pair of rugged, waterproof boots
               to
               keep your feet dry. Fitting for unpredictable weather you may be confronted by while passing through the
               Appalachians. These boots are also better than cycling shoes when pitching a tent.</p>
-            <p>Average cost: $100-150.</p>
+            <p class="places__paragraph places__last-paragraph">Average cost: $100-150.</p>
           </div>
         </div>
         <div class="places__place">
@@ -113,10 +117,12 @@
           </div>
           <img src="./images/place-new-york.jpg" alt="place-new-york" class="places__image">
           <div class="places__description">
-            <p>Not only famous for “The Big Apple,” the state of NY also has several other reasons for going down in
+            <p class="places__paragraph">Not only famous for “The Big Apple,” the state of NY also has several other
+              reasons for going down in
               history. Since the late 1800s Schenectady, “The City that Lights and Hauls the World,” has been home to
               the world-famous General Electric Company.</p>
-            <p>This is where modern power generators were born as well as contemporary means of transmitting energy.
+            <p class="places__paragraph places__last-paragraph">This is where modern power generators were born as well
+              as contemporary means of transmitting energy.
               So
               we figured this would be the perfect place to find a batteryless dynamo light for your bicycle to help
               you
@@ -132,16 +138,19 @@
           </div>
           <img src="./images/place-pennsylvania.jpg" alt="place-pennsylvania" class="places__image">
           <div class="places__description">
-            <p>Erie, Pennsylvania, not to be confused with the word “eerie,” although it can be from time to time, is
+            <p class="places__paragraph">Erie, Pennsylvania, not to be confused with the word “eerie,” although it can
+              be from time to time, is
               another town worth passing through for several different reasons. While it might be most famously known
               as
               the scene of the Gettysburg address delivered by Mr. Lincoln during the Civil war, Pennsylvania also has
               produced a rather decent-sized Amish community (eerie, huh?)</p>
-            <p>The reason we've brought you here today, if you haven't already guessed, can be summed up by using one
+            <p class="places__paragraph">The reason we've brought you here today, if you haven't already guessed, can be
+              summed up by using one
               delicious word: chocolate. Hershey's is a Pennsylvania-based company. Most likely, one of the tastiest
               missions you'll ever embark on during this tour, try to find an Amish friend and enjoy a bar in the
               National Wildlife Refuge on your way to Erie and have an extra eerie time!</p>
-            <p>The current cost of a Hershey's Chocolate bar: about 60¢.</p>
+            <p class="places__paragraph places__last-paragraph">The current cost of a Hershey's Chocolate bar: about
+              60¢.</p>
           </div>
         </div>
         <div class="places__place">
@@ -152,7 +161,8 @@
           </div>
           <img src="./images/place-ohio.jpg" alt="place-ohio" class="places__image">
           <div class="places__description">
-            <p>From the college capital of Columbus to the clean coastline of Cleveland, Ohio is a truly hidden gem.
+            <p class="places__paragraph">From the college capital of Columbus to the clean coastline of Cleveland, Ohio
+              is a truly hidden gem.
               Earthquakes are surprisingly common in this particular region of North America, over 200 of which have
               registered with a magnitude of 2 or higher since 1776. However, earthquakes aren't the only thing
               shaking
@@ -161,7 +171,7 @@
               complete (provided you can stomach it). Take a much-deserved break to ride as many roller coasters as
               you
               can before continue your bike ride!</p>
-            <p>The cost of a daily ticket: about $100.</p>
+            <p class="places__paragraph places__last-paragraph">The cost of a daily ticket: about $100.</p>
           </div>
         </div>
       </section>
@@ -171,16 +181,18 @@
           <p class="main-route__subtitle">The Main Street of America from Santa Monica, Cal. to Chicago, Ill.</p>
         </a>
       </section>
-    </div>
+    </main>
     <footer class="footer">
-      <ul class="footer__plan-tools-list">
-        <li class="footer__list-item"><a href="https://yandex.com/maps" target="_blank" class="footer__link">Maps</a>
-        </li>
-        <li class="footer__list-item"><a href="https://yandex.com/weather/moscow" target="_blank"
-            class="footer__link">Weather</a></li>
-        <li class="footer__list-item"><a href="https://calendar.yandex.ru" target="_blank"
-            class="footer__link">Calendar</a></li>
-      </ul>
+      <nav>
+        <ul class="footer__plan-tools-list">
+          <li class="footer__list-item"><a href="https://yandex.com/maps" target="_blank" class="footer__link">Maps</a>
+          </li>
+          <li class="footer__list-item"><a href="https://yandex.com/weather/moscow" target="_blank"
+              class="footer__link">Weather</a></li>
+          <li class="footer__list-item"><a href="https://calendar.yandex.ru" target="_blank"
+              class="footer__link">Calendar</a></li>
+        </ul>
+      </nav>
       <p class="footer__copyright">&copy; Hasmik</p>
     </footer>
   </div>

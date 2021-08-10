@@ -3,6 +3,7 @@
   transition:opacity 0.5s linear;
   font-size:18px;
   line-height:22px;
+  margin-top:12px;
 }
 .places__link:hover {
   opacity:0.8;

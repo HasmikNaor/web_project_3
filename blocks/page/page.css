@@ -1,4 +1,3 @@
-@import url('https://rsms.me/inter/inter.css');
 .page {
   width:100%;
   max-width:1184px;
@@ -9,5 +8,5 @@
   align-items:center;
   color:#FFFFFF;
   padding:34px 0px 24px;
-  font-family:'Inter var','sans-serif';
+  font-family:'Inter';
 }

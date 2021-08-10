@@ -3,13 +3,11 @@
   padding:0;
   list-style:none;
   display:flex;
-  height:100%;
 }
 
 @media screen and (max-width:500px) {
   .footer__plan-tools-list {
     flex-direction:column;
     width:165px;
-    height:198px;
   }
 }

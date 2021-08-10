@@ -5,15 +5,6 @@
   line-height:29.34px;
   font-style:normal;
 }
-.places__description>p {
-  margin:0;
-  padding:0;
-  margin-bottom:25px;
-}
-.places__description>p:last-child {
-  margin-bottom:0;
-  line-height:26px;
-}
 @media screen and (max-width:768px) {
   .places__description {
     font-size:16px;
@@ -24,7 +15,7 @@
   .places__description {
     padding-left:16px;
     padding-right:16px;
+    margin-top:2px;
   }
 }
-
 

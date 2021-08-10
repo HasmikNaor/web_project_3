@@ -1,4 +1,5 @@
 .main-route__link {
+  box-sizing:border-box;
   width:100%;
   height:100%;
   color:#fff;
@@ -10,7 +11,7 @@
   align-items:center;
   position:relative;
   padding-top:23.9020271%;
-  padding-bottom:23.9020271%; 
+  padding-bottom:23.9020271%;
 }
 .main-route__link::before {
   content:'';
@@ -20,7 +21,7 @@
   left:0;
   width:100%;
   height:100%;
-  opacity:0;
+  opacity:0.3;
   transition:opacity 0.5s ease-in;
  }
  .main-route__link:hover:before {
@@ -42,5 +43,11 @@
   .main-route__link {
     padding-top:10.46875%;
     padding-bottom:10.46875%;
+  }
+}
+ @media screen and (max-width:320px) {
+  .main-route__link {
+    padding-top:15.78125%;
+    padding-bottom:15.78125%;
   }
 }
