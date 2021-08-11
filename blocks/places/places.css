@@ -2,6 +2,10 @@
   box-sizing:border-box;
   width:100%;
   padding:12px 100px 92px;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
 }
 @media screen and (max-width:1024px) {
   .places {
