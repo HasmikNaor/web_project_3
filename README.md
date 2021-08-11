@@ -18,5 +18,5 @@ This is a project about traveling across the US. We've made it so all the elemen
 The way you'll do this at work is by exporting images directly from Figma — we recommend doing that to practice more. Don't forget to optimize them [here](https://tinypng.com/), so your project loads faster. 
 
 Good luck and have fun!
-https://github.com/HasmikNaor/web_project_3
-I used HTML and CSS
+[link to my GitHub](https://github.com/HasmikNaor/web_project_3).
+I used HTML and CSS.

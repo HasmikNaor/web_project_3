@@ -1,6 +1,6 @@
 /* blocks */
-@import url(../vendor/fonts/fonts.css);
 @import url(../vendor/normalize.css);
+@import url(../vendor/fonts/fonts.css);
 @import url(../blocks/body/body.css);
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/header/header.css);
@@ -37,7 +37,6 @@
 @import url(../blocks/places/__place/places__place.css);
 @import url(../blocks/places/__title/places__title.css);
 @import url(../blocks/places/__paragraph/places__paragraph.css);
-@import url(../blocks/places/__last-paragraph/places__last-paragraph.css);
 @import url(../blocks/places/__url-heading/places__url-heading.css);
 @import url(../blocks/places/__website/places__website.css);
 @import url(../blocks/intro/__description/intro__description.css);
