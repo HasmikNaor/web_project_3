@@ -14,7 +14,8 @@
 @import url(../blocks/main-route/main-route.css);
 
 /* elements */
-@import url(../blocks/footer/__copyright/footer__copyright.css);
+/* @import url(../blocks/footer/__copyright/footer__copyright.css); */
+@import url(../../web_project_3/blocks/footer/__copyright/footer__copyright.css);
 @import url(../blocks/footer/__link/footer__link.css);
 @import url(../blocks/footer/__plan-tools-list/footer__plan-tools-list.css);
 @import url(../blocks/footer/__list-item/footer__list-item.css);
